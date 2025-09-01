@@ -1,22 +1,12 @@
 {
-    "validUser": {
-        "firstName": "Moumi",
-        "lastName": "Sau",
-        "zipcode": "700010"
-    },
-    "missingFirstName": {
-        "firstName": "",
-        "lastName": "Sau",
-        "zipcode": "700010"
-    },
-    "missingLastName": {
-        "firstName": "Moumi",
-        "lastName": "",
-        "zipcode": "700010"
-    },
-    "missingZipCode": {
-        "firstName": "Moumi",
-        "lastName": "Sau",
-        "zipcode": ""
-    }
+  "validCheckout": {
+    "firstName": "Moumi",
+    "lastName": "Sau",
+    "zipCode": "700043"
+  },
+  "invalidCheckout": {
+    "firstName": "",
+    "lastName": "",
+    "zipCode": ""
+  }
 }
