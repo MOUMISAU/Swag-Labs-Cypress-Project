@@ -39,6 +39,7 @@ describe('Swag Labs - Checkout Tests', () => {
 
     it('should show error when first name is missing', () => {
         cy.fixture('checkoutData').then((data) => {
+            console.log(data);
             checkoutPage.actions.enterCheckoutInfo({
                 firstName: '',
                 lastName: data.validCheckout.lastName,
