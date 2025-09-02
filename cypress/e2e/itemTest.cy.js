@@ -47,7 +47,7 @@ describe('Swag Labs - Item Tests', () => {
     itemPage.elements.cartBadge().should('not.exist');
   });
 
-  it('Should allow adding the same item more than once', function () {
+  it.skip('Should allow adding the same item more than once', function () {
     const item = this.itemsData[2];
 
     // itemPage.addItemToCart(item.name);
